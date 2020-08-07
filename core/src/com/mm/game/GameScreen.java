@@ -46,7 +46,6 @@ public class GameScreen implements Screen{
 
     @Override
     public void show() {
-
     }
 
     @Override
@@ -54,7 +53,7 @@ public class GameScreen implements Screen{
         sb.begin();
 
         //background
-        sb.draw(background, 3, 3, GLOBAL_WIDTH, GLOBAL_HEIGHT);
+        sb.draw(background, 0, 0, GLOBAL_WIDTH, GLOBAL_HEIGHT);
 
         //blueShip
         blueShip.draw(sb);
@@ -66,7 +65,6 @@ public class GameScreen implements Screen{
         //
 
         sb.end();
-
     }
 
     @Override

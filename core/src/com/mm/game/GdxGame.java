@@ -15,7 +15,6 @@ public class  GdxGame extends Game {
 
     @Override
     public void create() {
-
         gs = new GameScreen();
         setScreen(gs);
         //img = new Texture("trump.jpg");
